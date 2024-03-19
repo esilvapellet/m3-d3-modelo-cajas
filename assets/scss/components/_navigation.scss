@@ -1,0 +1,14 @@
+.nav__menu-item {
+    padding: $sp2;
+    font-family: $font-mono;
+    margin: 0 $sp4;
+
+    &--primary {
+        background-color: $white;
+        color: $spanish-gray;
+
+        &:hover {
+            color: $black;
+        }
+    }
+}
